@@ -1,6 +1,6 @@
-package model;
+package projetovendas.model;
 
-import interfaces.IOperacao;
+import projetovendas.interfaces.IOperacao;
 
 public class Endereco implements IOperacao {
 
@@ -39,7 +39,11 @@ public class Endereco implements IOperacao {
 
     @Override
     public void cadastrar() {
-
+        String insert = "INSERT INTO tbEndereco (logradouro, bairro, cidade) " +
+                "VALUES ('" + getLogradouro() + "','"
+                + getBairro() + "',"
+                + getCidade() + ")";
+        System.out.println(insert);
     }
 
     @Override

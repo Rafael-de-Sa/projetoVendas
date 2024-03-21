@@ -1,6 +1,6 @@
-package model;
+package projetovendas.model;
 
-import interfaces.IOperacao;
+import projetovendas.interfaces.IOperacao;
 
 import java.util.List;
 

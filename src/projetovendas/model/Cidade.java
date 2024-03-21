@@ -1,6 +1,6 @@
-package model;
+package projetovendas.model;
 
-import interfaces.IOperacao;
+import projetovendas.interfaces.IOperacao;
 
 public class Cidade implements IOperacao {
     private String nomeCidade;
@@ -31,7 +31,6 @@ public class Cidade implements IOperacao {
     public void cadastrar() {
         String insert = "INSERT INTO tbCidade(nome,codIbge)" + "VALUES ('" + getNomeCidade() + "'," + getCodIbge() + ");";
         System.out.println(insert);
-
     }
 
     @Override

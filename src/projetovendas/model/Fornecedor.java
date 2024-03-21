@@ -1,6 +1,6 @@
-package model;
+package projetovendas.model;
 
-import interfaces.IPesquisar;
+import projetovendas.interfaces.IPesquisar;
 
 public class Fornecedor extends Pessoa implements IPesquisar {
     private boolean status;

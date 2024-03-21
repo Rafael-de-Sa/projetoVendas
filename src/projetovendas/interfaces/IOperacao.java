@@ -1,4 +1,4 @@
-package interfaces;
+package projetovendas.interfaces;
 
 public interface IOperacao {
     void cadastrar();

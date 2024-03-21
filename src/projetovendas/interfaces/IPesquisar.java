@@ -1,6 +1,6 @@
-package interfaces;
+package projetovendas.interfaces;
 
-import model.Pessoa;
+import projetovendas.model.Pessoa;
 
 public interface IPesquisar {
     Pessoa pesquisar();
